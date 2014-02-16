@@ -60,6 +60,8 @@ body > header {
 	padding:0px 0
 }
 
+
+
 body > header > h1 {
   line-height:24px;
   margin-bottom:20px;
@@ -75,7 +77,7 @@ body > header #mod-search-searchword {
   margin-bottom:0 !important;
 }
 #gk-logo.css-logo {
-  background:transparent url('../images/logo.png') no-repeat 0 0;
+  background:transparent url('../img/logo.png') no-repeat 0 0;
   display:block;
   height:95px;
   text-indent:-9999px;
@@ -103,19 +105,26 @@ body > header #mod-search-searchword {
 #gk-header {
   padding:0px 0;
 }
-body > header + section#gk-main:before {
-  border-top:1px solid #eee;
-  content:"";
-  display:block;
-  margin-top:0;
-  padding-top:45px;
-  width:100%;
-}
+
 
 #wrappercontent { }
+#gk-mainbody-bottom 
+{
+  margin-top:65px;
+  
+}
+#imgbox
+{
+    margin-top:50px;
+     
+}
+#ad
+{
+    padding-top: 110px;
+}
 
-#gk-mainbody-bottom {}
-#gk-bottom {
+#gk-bottom
+{
   padding:0px 100px 0 100px;
   background:#424242;
   display:none;
@@ -130,7 +139,11 @@ body > header + section#gk-main:before {
   padding:5px 10px 5px 170px;
 }
 
+
+
 #footer {background:#424242; padding:0 20px 0 20px}
+
+
 
 body > footer {
   font-size:11px;
@@ -159,8 +172,9 @@ body > footer a:active, body > footer a:focus, body > footer a:hover {
   color:#CC0033;
 }
 body > footer .gk-toplink { margin-left:20px; }
-#gk-framework-logo {
-  background:url('../images/framework-logo.png') no-repeat 0 0 !important;
+#gk-framework-logo
+{
+  background:url('../img/framework-logo.png') no-repeat 0 0 !important;
   clear:both;
   display:block;
   height:42px;
@@ -1098,15 +1112,7 @@ body.loaded .gk-big-header {
 .icomoon-bookmark:before { content:"\e023"; }
 .icomoon-out-2:before { content:"\e024"; }
 label[for="mod-search-searchword"] { display:none; }
-#mod-search-searchword {
-  height:28px;
-  max-width:100% !important;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -ms-box-sizing:border-box;
-  -o-box-sizing:border-box;
-  box-sizing:border-box;
-}
+
 .stats-module dt, .stats-module dd { float:left; }
 .stats-module dt { clear:both; }
 #gk-breadcrumb .icon-home { margin-top:-2px; }

@@ -318,8 +318,7 @@ a:focus {
 
 .span4 {
   width: 300px;
-  height:300px;
-  
+  height:300px;  
 }
 
 .span3 {
@@ -6127,6 +6126,34 @@ a.badge:focus {
   -moz-border-radius: 6px;
    border-radius: 6px;
 }
+#footer-s
+{
+   margin-top: -80px;
+    margin-left: -20px;
+    width:1138px;
+    height: 150px;
+    background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+   border-radius: 6px;
+}
+#footer-t
+{
+    width:1138px;
+    height: 50px;   
+    margin-left:-20px;
+    background-color:#CC0033;
+    margin-bottom:9px;
+}
+#footer-t2
+{
+    width:1138px;
+    height: 50px;
+    margin-left: -20px;
+    background-color:#424242;
+    margin-bottom:10px;
+}
+
 
 .hero-unit h1 {
   margin-bottom: 0;
