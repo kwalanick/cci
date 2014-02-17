@@ -12,18 +12,31 @@
         <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" />
         <link rel="stylesheet" href="css/template.css" type="text/css" />
         <link rel="stylesheet" href="css/override.css" type="text/css" />
+		
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>		
+		<script src="js/jquery.bxslider.min.js"></script>		
+		<link href="css/jquery.bxslider.css" rel="stylesheet" />
         
               
-        <script>
-            $(document).ready(function(){
-            $('.carousel').carousel();
-            });
-            
-        </script>
-
-          
-
-
+        <script type="text/javascript">
+		
+		$(document).ready(function()
+		{
+		$('.bxslider').bxSlider();
+		});
+		
+		$(document).ready(function(){
+		  $('.slider1').bxSlider({
+		    auto:true,
+			slideWidth: 200,
+			minSlides: 2,
+			maxSlides: 3,
+			slideMargin: 10
+		  });
+		});
+			
+		</script>
 
         <style type="text/css">
 
@@ -33,11 +46,7 @@
 
             body { font-family: Verdana, Geneva, sans-serif; }
 
-            h1,	h2,	h3,	h4,	h5,	h6,		
-            .gk-blue-button,
-            .gk-yellow-button  { font-family: Verdana, Geneva, sans-serif; }
-
-            #gk-content h2 small { font-family: Verdana, Geneva, sans-serif; }
+            
 
         </style>
 
@@ -48,7 +57,7 @@
         <div class="container-fluid">
 
 
-            <a href="" id="gk-logo" class="pull-left css-logo">Jubilee Insurance - Jubilee Insurance </a>
+            <a href="" id="gk-logo" class="pull-left css-logo">Corporate Citizenship International</a>
 
             <div class="gk-mainmenu-toggle">
 
@@ -62,110 +71,52 @@
                 <a href="" target="_blank"><img src="img/twitter.png"/></a>
                 <a href="" target="_blank"><img src="img/youtube.png"/></a>
                 <a href="" target="_blank"><img src="img/linkedin.png"/></a>
+
             </div> 
 
-            <div class="gk-main-menu-top">
+        <br>
 
-                <ul class="nav menu ">
-
-                    <li class="item-165"><a href="" >Newsroom</a></li>
-                    <li class="item-301"><a href="/ke/index.php/2013-08-02-08-36-31" >Feedback Form</a></li>
-                    <li class="item-166"><a href="" >Careers</a></li>
-                    <li class="item-167"><a href="" >Downloads</a></li>
-                    <li class="item-168 deeper parent"><a href="#" >Countries</a><ul class="nav-child unstyled small">
-
-                            <li class="item-334"><a href="" >Kenya</a></li>
-                            <li class="item-169"><a href="" >Uganda</a></li>
-                            <li class="item-170"><a href="" >Tanzania</a></li>
-                            <li class="item-226"><a href="" >Burundi</a></li>
-                            <li class="item-227"><a href="" >Mauritius</a></li>
-                            <li class="item-302 deeper parent"><a href="#" >Pakistan</a><ul class="nav-child unstyled small">
-                                    <li class="item-358"><a href="" target="_blank" >Pakistan Life</a></li>
-                                    <li class="item-359"><a href="" target="_blank" > Pakistan General</a></li>
-                                </ul></li></ul></li></ul>
-
-
-            </div><br><br><br>
 
             
         </div>
 
-        <div id="menubar" class="container-fluid">
+        <div class="container-fluid">
 
-            <div class="nav-collapse gk-main-menu">
-                <ul class="nav menu ">			
-                    <li class="item-236"><a href="" >Home</a></li>
-                    <li class="item-124 deeper parent"><a href="/ke/index.php/about-us" >About Us</a>
-                        <ul class="nav-child unstyled small">
-                            <li class="item-176 parent"><a href="/ke/index.php/about-us/our-profile" >Our Profile</a></li>
-                            <li class="item-177 parent"><a href="/ke/index.php/about-us/our-leadership" >Our Leadership</a></li>
+            <div id="menubar">
 
-                        </ul></li>
-                    <li class="item-144 deeper parent"><a href="/ke/index.php/products-solutions" >Products &amp; Solutions</a>
-                        <ul class="nav-child unstyled small">
-                            <li class="item-185 parent"><a href="/ke/index.php/products-solutions/individual-insurance" >Individual Insurance</a></li>
-                            <li class="item-184 parent"><a href="/ke/index.php/products-solutions/corporate-insurance" >Corporate Insurance</a></li>
-                        </ul></li>
-                    <li class="item-145 deeper parent"><a href="/ke/index.php/customer-relations" >Customer Relations</a>
-                        <ul class="nav-child unstyled small">
-                            <li class="item-208 parent"><a href="/ke/index.php/customer-relations/online-help" >Online Help</a></li>
-                            <li class="item-209"><a href="/ke/index.php/customer-relations/downloads" >Downloads</a></li>
+            <div class="navbar">
 
+              <div class="navbar-inner">
 
-                        </ul></li>
+                <a class="brand" href="#">Corporate Citezenship International</a>
+                    <ul class="nav">
 
-                    <li class="item-146 deeper parent"><a href="/ke/index.php/jubilee-group" >Jubilee Group</a>
-                        <ul class="nav-child unstyled small">
-                            <li class="item-249"><a href="/ke/index.php/jubilee-group/board-of-directors" >Board of Directors</a></li>
-                            <li class="item-251"><a href="/ke/index.php/jubilee-group/corporate-governance" >Corporate Governance</a></li>
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">FAQs</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">Careers</a></li>
 
-                        </ul></li>
-                    <li class="item-295 deeper parent"><a href="" target="_blank" ><img src="/ke/images/shop_cart.png" alt="Buy Online" />
-                            <span class="image-title">Buy Online</span> </a>
-                           <ul class="nav-child unstyled small">
-                            <li class="item-296"><a href="/ke/index.php/buy-online/personal-accident" >Personal Accident</a></li>
-                            <li class="item-297"><a href="/ke/index.php/buy-online/personal-pension-plan" >Personal Pension Plan</a></li>
-                        </ul>
-                    </li>
+                   </ul>
+            </div>
+            </div>
 
-                    <li class="item-256"><a href="/ke/index.php/2013-07-26-11-02-04" >BUPA</a></li>
-                    <li class="item-255"><a href="#" >Diaspora</a></li>
-                    <li class="item-148"><a href="/ke/index.php/contact-us" >Contact Us</a></li></ul>
-
-
-            </div> 
+            </div>
           
         </div>
         
         <div class="container-fluid">       
 
-        <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
-        <div class="carousel-inner">
-        <div class="item active"> <!-- class of active since it's the first item -->
-            <img src="img/image1.jpg" alt="" />
-        <div class="carousel-caption">
-            <p>Caption text here</p>
-        </div>
-        </div>
-            
-        <div class="item">
-            <img src="img/image2.jpg" alt="" />
-        <div class="carousel-caption">
-            <p>Caption text here</p>
-        </div>
-        </div>
-            
-        <div class="item">
-            <img src="img/image3.jpg" alt="" />
-        <div class="carousel-caption">
-        <p>Caption text here</p>
-        </div>
-        </div>
-            
-                   
-        </div><!-- /.carousel-inner -->
-        
-        </div><!-- /.carousel -->
+        <ul class="bxslider">
+		
+		  <li><img src="img/image1.jpg" /></li>
+		  <li><img src="img/image2.jpg" /></li>
+		  <li><img src="img/image1.jpg" /></li>
+		  <li><img src="img/image2.jpg" /></li>
+		  
+		</ul>
     
                 
         </div>
@@ -183,7 +134,7 @@
                     <div class="custom border2"  >
                     <p><img src="img/medical-products.jpg" alt="" /></p>
                     <p>This is a medical insurance product designed to cover a registered organization
-                      or entity with the following membership; - Minimum number – 7 Employees.- Maximum number – 19 Employees.
+                      or entity with the following membership; - Minimum number � 7 Employees.- Maximum number � 19 Employees.
                       
                     <a href="">read more</a></p>                    
                     <p><a href=""><img src="img/talktous.png" alt="talktous" height="40" width="160" /></a></p>
@@ -201,8 +152,8 @@
                         <div class="custom border2"  >
                         <p><img src="img/life.jpg" alt="life" height="150" width="350" /></p>
                         <p>This is a life insurance policy that enables you to build a fund over a period of 
-                            time to enable you meet your child’s school fees obligations at the various 
-                            stages of the child’s education.                           
+                            time to enable you meet your child�s school fees obligations at the various 
+                            stages of the child�s education.                           
                             <a href="">read more</a></p>
                         <p><a href="" class="jcepopup" dir="ltr" target="_blank" title="" >
                         <img src="img/chatwithus.png" alt="chatwithus" height="40" width="160" /></a></p></div>
@@ -215,21 +166,21 @@
                         <div class="box  border2"><div><h3 class="header ">News & Events</h3><div class="content">
                         <div class="nspMain nspFs100" id="nsp-nsp_178" style="width:100%;" data-direction="ltr">
                         <div class="nspArts bottom" style="width:100%;">								
-			
+
                             
 					<div class="nspArtScroll2 nspPages2"><div class="nspArtPage nspCol2">
                                                 
 					<div class="nspArt nspCol1" style="padding:0 20px 5px 0;">
 					<h6 class="nspHeader tleft fnone"><a href="" title="Jubilee Insurance Launches a Shopping Mall in Mombasa">Jubilee Insurance Launches a Shopping Mall in Mombasa.</a></h6><a href="" class="nspImageWrapper tleft fleft" style="margin:6px 10px 0px 0;">
-                                            <img class="nspImage tleft fleft" src="img/jubilee_launches_mall.jpg" alt="Jubilee Insurance Launches a Shopping Mall in Mombasa."  style="width:100px;height:75px;"  /></a><p class="nspText tleft fleft">East Africa’s leading Insurer, Jubilee Insurance inaugurated a newly refurbished modern co...</p><p class="nspInfo  nspInfo2 tleft fleft"></p><a class="readon  fright" href="">Read more</a></div>
+                                            <img class="nspImage tleft fleft" src="img/jubilee_launches_mall.jpg" alt="Jubilee Insurance Launches a Shopping Mall in Mombasa."  style="width:100px;height:75px;"  /></a><p class="nspText tleft fleft">East Africa�s leading Insurer, Jubilee Insurance inaugurated a newly refurbished modern co...</p><p class="nspInfo  nspInfo2 tleft fleft"></p><a class="readon  fright" href="">Read more</a></div>
 					<div class="nspArt nspCol1" style="padding:0 20px 5px 0;">
 					<h6 class="nspHeader tleft fnone"><a href="r" title="">Jubilee Insurance Awards Comedian Doctor</a></h6><a href="" class="nspImageWrapper tleft fleft" style="margin:6px 10px 0px 0;">
-                                            <img class="nspImage tleft fleft" src="img/comedian.jpg" alt="Jubilee Insurance Awards Comedian Doctor"  style="width:100px;height:75px;"  /></a><p class="nspText tleft fleft">Nairobi, July 22 –Jubilee Insurance Samaritan Awards panel has named Dr. David Wasambla th...</p><p class="nspInfo  nspInfo2 tleft fleft"></p><a class="readon  fright" href="">Read more</a>							</div>
+                    <img class="nspImage tleft fleft" src="img/comedian.jpg" alt="Jubilee Insurance Awards Comedian Doctor"  style="width:100px;height:75px;"  /></a><p class="nspText tleft fleft">Nairobi, July 22 �Jubilee Insurance Samaritan Awards panel has named Dr. David Wasambla th...</p><p class="nspInfo  nspInfo2 tleft fleft"></p><a class="readon  fright" href="">Read more</a>							</div>
                                         </div>
                                             
-			
+
 																</div>
-					
+
 			</div>
 			</div>
                         </div>
@@ -278,7 +229,7 @@
               
       <div class="custom"  >
           
-      <p><a href="" target="_blank"><img src="img/ad.png" width="350" height="200" alt="ad" /></a></p></div>
+      <p><a href="" target="_blank"><img src="img/ad.png" width="350" height="" alt="ad" /></a></p></div>
               
       </div></div>
           
@@ -289,6 +240,18 @@
       <section class="container-fluid">
             
         <div id = "footer-s">
+		
+		<div class="slider1">
+		  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
+		  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
+		  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
+		  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
+		  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
+		  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
+		  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
+		  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
+		  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
+		</div>
                 
         </div>      
             
@@ -301,17 +264,7 @@
         </div>    
             
         </section>
-                
-            
-        
-
-
-
-
-
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
+		
         <script src="js/bootstrap.min.js"></script>
 
 
