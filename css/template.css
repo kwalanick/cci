@@ -79,10 +79,13 @@ body > header #mod-search-searchword {
 #gk-logo.css-logo {
   background:transparent url('../img/inside_logo.png') no-repeat 0 0;
   display:block;
-  height:115px;
+  height:139px;
+  margin-top:-20px;
+  margin-left:-16px;
+  margin-bottom: 10px;
   text-indent:-9999px;
-  width:200px;
-  margin:0;
+  width:300px;
+
 }
 #gk-logo.text-logo span {
   display:block;

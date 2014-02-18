@@ -41,8 +41,15 @@ footer,
 header,
 hgroup,
 nav,
+
+.nav{
+    font-size:13px;
+    color:#000000;
+    font-weight: bold;
+}
 section {
   display: block;
+
 }
 
 audio,
@@ -307,6 +314,7 @@ a:focus {
 
 .span8 {
   width: 620px;
+
 }
 
 .span7 {
@@ -6131,9 +6139,15 @@ a.badge:focus {
   -moz-border-radius: 6px;
    border-radius: 6px;
 }
-#footer-s
+
+#gfooter
 {
-   margin-left: -20px;    
+    margin-top:0px;
+}
+.footer-s
+{
+   margin-left:-20px;
+
 
 }
 #footer-t
